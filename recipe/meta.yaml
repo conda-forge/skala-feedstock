@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: skala
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/microsoft/skala/archive/v{{ version }}.tar.gz
-  sha256: 1b66153b732c7cb4205ccab7274bad4b367cd3c4f783ac4214bfb7f356a3449e
+  sha256: c4f2187a698e337b10c1dabca23279fa16090a721d4b7da1deb5c5a520a1347e
 
 build:
   number: 0
