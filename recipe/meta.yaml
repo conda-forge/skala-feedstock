@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: skala
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/microsoft/skala/archive/v{{ version }}.tar.gz
-  sha256: c4f2187a698e337b10c1dabca23279fa16090a721d4b7da1deb5c5a520a1347e
+  sha256: 95f483d57b0371e498364b2ea3167a15fbdeadb8a5165cd7864cc3585bf3fa99
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - huggingface_hub
     - numpy
     - opt_einsum_fx
-    - pyscf <2.10.0
+    - pyscf
     - python >={{ python_min }}
     - pytorch
     - qcelemental
