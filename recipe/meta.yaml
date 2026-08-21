@@ -20,23 +20,20 @@ requirements:
     - setuptools
   run:
     - ase
-    - azure-core
-    - azure-identity
-    - dftd3-python
+    - dftd3-python >=1.2.1
     - e3nn
     - huggingface_hub
     - numpy
     - opt_einsum_fx
-    - pyscf >=2.8,<2.14
+    - pyscf >=2.11,<2.15
+    - pyscf-dispersion >=1.5
     - python >={{ python_min }}
-    - pytorch
-    - qcelemental
+    - pytorch >=2.9
 
 test:
   imports:
     - skala
     - skala.ase
-    - skala.foundry
     - skala.functional
     - skala.pyscf
   commands:
